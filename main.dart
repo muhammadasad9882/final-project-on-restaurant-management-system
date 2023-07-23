@@ -152,8 +152,10 @@ displayInfo() {
     placeOrder();
   } else if (infoKeys == "3") {
     print(orders);
+    displayInfo();
   } else if (infoKeys == "4") {
     billingAmount();
+    displayInfo();
   } else if (infoKeys == "5") {
     confirmOrder();
   }
